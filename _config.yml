@@ -1,10 +1,10 @@
 ﻿# Site settings
 title: HL Blog
-SEOTitle: GitTab | 个人博客| 码工的IT日常 |人生感言
+SEOTitle: GitTab | HL Blog博客| 码工的IT日常 |人生感言
 header-img: img/home.jpg
 email: longtolink@163.com
 description: "努力是迈向成功的开始!"
-keyword: "hI, 人生感言,IT生活 tearstea的博客, huanglong, 网址大全, 快捷操作, 好看的电影，免费看电影的网站"
+keyword: "hI, 人生感言,IT生活 tearstea的博客, HuangLong, 网址大全, 快捷操作, 好看的电影，免费看电影的网站"
 url: "http://tearstea.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/tearstea/tearstea.github.io.git"  # you code repository
@@ -97,7 +97,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "github",
+        title: "GitHub",
         href: "https://github.com/tearstea"
     },
     {
@@ -105,7 +105,7 @@ friends: [
         href: "https://www.jianshu.com/u/72fde39cc440"
     },
     {
-        title: "BinGo",
+        title: "BinGo姐",
         href: "http://cometo.club/"
     },
     #{
