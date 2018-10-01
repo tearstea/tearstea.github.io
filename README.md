@@ -1,6 +1,7 @@
 
 <img src="/PigSec/sec.jpg" width="800">
 
+
 ## 前言
 
   为了拥有个人专属网站，在不断寻觅之中找到了一个模板，然后按照对方的教程在这其中磕磕碰碰终于把个人博客给搭建成功了，首先感谢[qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io)的模板与指导，当然也通过他了解了[Hux](https://github.com/Huxpro/huxpro.github.io)的建站经历，感谢他们。如果想了解更详细的建站过程可以戳这[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)。
@@ -101,8 +102,8 @@
 ### 备注：
 
   其实我之前用的gitbash命令行工具clone仓库，也可以不用github desktop，但是这对于新手来说比较麻烦，所以我选择了最简单的方式。當然了，也可以直接fork別人的模板到自己的的github倉庫裏，然後再克隆到本地。然後在進行修改。切記，每次修改的時候一定要注意力額，不然，可能出現進站不成功的情況。
+  现在我的博客新地址是<a href="https://www.gittab.cn/" target="_blank">GitTab</a>,之前的cometogo给了我女朋友她的地址在这里<a href="https://www.cometogo.club/" target="_blank">BinGo姐</a>。
 
 ## 鸣谢
 
   这个模板是从这里 [qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io) fork 的, 感谢这个作者。也感謝之前的作者。 其他方式可看這裏[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)
-
