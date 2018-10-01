@@ -1,0 +1,155 @@
+---
+layout: page
+title: "About me"
+description: "Hello, this is H•L"
+header-img: "img/about.jpg"
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote>
+      <p>有所爱  有所求<p><br>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;断舍离  人自由</p>
+    </blockquote>
+
+    <p>Hello，我是<strong>huanglong(HL)</strong>，一只WEB前端程序猿，现在深圳工作。</p>
+
+    <p>工作、学习之余，我有很多爱好，譬如睡觉做梦，当然还有点小爱好，譬如分享我所知道的知识。</p>
+
+    <p>这是我利用
+      <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> 与
+      <a href="http://jekyll.com.cn/" target="_blank">Jekyll</a> 搭建的 个人博客。我的GitHub主页
+      <a href="https://github.com/tearstea" target="_blank"> 👉GitHub·HL</a>，<br>
+      这是我微信：648014491。我的<a href="https://www.jianshu.com/u/72fde39cc440" target="_blank">简书-HL</a>,如果有什么问题，欢迎提出探讨~</p>
+    <P>当然了，大家也可以关注我微信公众号：<b>互联网遗址</b>，了解更多知识和内容：</P>
+    <img src="/img/wechat-gongzhong.jpg" width="100" />
+    <h5>Talks</h5>
+    <p>感谢<a href="http://http://qiubaiying.top/" target="_blank">qiubaiying</a>提供的模板</p>
+    <p>同时感谢前人栽的树：</p>
+    <ul>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/" target="_blank">jekyll</a></li>
+        <li><a href="http://huangxuan.me/" target="_blank">Hux</a></li>
+    </ul>
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+  <blockquote>
+    <p>Loving  Seeking<p><br>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Abnegating  Freedom</p>
+  </blockquote>
+
+    <p>Hi, I am <strong>long huang</strong>，you can call me <strong>HL</strong>.I am a WEB engineer and currently working in Shenzhen</p>
+
+    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="https://github.com/tearstea">Github·BY</a>.</p>
+   
+    <p>You can scan the QR code to look at my WeChat</p>
+    
+    <img src="/img/wechat-gongzhong.jpg" width="100" />
+    
+    <h5>Talks</h5>
+
+    <ul>
+      <li><a href="https://github.com" target="_blank">GitHub</a></li>
+      <li><a href="http://jekyll.com.cn/" target="_blank">jekyll</a></li>
+      <li><a href="http://huangxuan.me/" target="_blank">Hux</a></li>
+  </ul>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
