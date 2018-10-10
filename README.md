@@ -5,7 +5,7 @@
 ## 前言
 
   为了拥有个人专属网站，在不断寻觅之中找到了一个模板，然后按照对方的教程在这其中磕磕碰碰终于把个人博客给搭建成功了，首先感谢[qiubaiying](https://github.com/qiubaiying/qiubaiying.github.io)的模板与指导，当然也通过他了解了[Hux](https://github.com/Huxpro/huxpro.github.io)的建站经历，感谢他们。如果想了解更详细的建站过程可以戳这[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)。
-  如果想了解我的博客，可以戳[这里](http://cometogo.club/)。
+  如果想了解我的博客，可以戳[这里](http ://cometogo.club/)。
 
   由于在建站过程中遇到了很多坑，也寻找了各种各样的方法，按照前人的教程，可能我个人能力有限，总也不能建站成功，于是，我修改一些过程，最终爬坑成功了，高兴至极。此方法可能对于更多的职场小白来说更简单些。下面我把我个人的方法总结与前人之异同总结出来。希望能给想建造个人博客的人有些帮助。
 
@@ -53,7 +53,7 @@
 <img src="/PigSec/secname.jpg" width="500">
 
 >  3.添加解析之后有两个A 记录类型,
-      一个主机记录为 www,代表可以解析www.cometogo.club的域名。细心的你会发现在浏览器输入www.cometogo.club或者直接点击<a href="https://cometogo.club" target="_blank">这里</a>，将会直接跳转d到我个人网站主页。
+      一个主机记录为 www,代表可以解析www.cometogo.club的域名。细心的你会发现在浏览器输入www.cometogo.club或者直接点击<a href="https://www.cometogo.club" target="_blank">这里</a>，将会直接跳转d到我个人网站主页。
       另一个为 @, 代表 cometogo.club，当然你也可以直接在浏览器中输入，也可以进入我个人网站主页。
 <img src="/PigSec/sec9.png" width="500">
 
@@ -102,8 +102,8 @@
 ### 备注：
 
   其实我之前用的gitbash命令行工具clone仓库，也可以不用github desktop，但是这对于新手来说比较麻烦，所以我选择了最简单的方式。當然了，也可以直接fork別人的模板到自己的的github倉庫裏，然後再克隆到本地。然後在進行修改。切記，每次修改的時候一定要注意力額，不然，可能出現進站不成功的情況。
-
-  现在我的博客新地址迁移到这里<a href="https://www.gittab.cn/" target="_blank">GitTab</a>,之前的cometogo给了我女朋友，她的地址在这里<a href="https://www.cometogo.club/" target="_blank">BinGo姐</a>。
+  
+  现在我的博客新地址迁移到这里<a href="https://gittab.cn/" target="_blank">GitTab</a>,之前的cometogo给了我女朋友，她的地址在这里<a href="https://www.cometogo.club/" target="_blank">BinGo姐</a>。
 
 ## 鸣谢
 
