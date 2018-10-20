@@ -78,3 +78,25 @@ tags:
 <img src="/PigThird/Third12.jpg" width="500">
 
 至此，整个项目打包是成功的。如果仍然是空白情况，那么久要检查原始项目的路径问题了。
+
+或者，还有更简单的方法，针对于vue CLI3.0，
+
+# 第一步
+
+直接gitbash找到项目，执行  npm install -g serve
+
+<img src="/PigThird/Third13.jpg" width="500">
+
+# 第二步
+
+执行 serve -s dist，将会看到这样的界面
+
+<img src="/PigThird/Third14.jpg" width="500">
+
+# 第三步
+
+在浏览器中输入 Local:http://localhost:5000。或者On Your Network:http://192.175.25.101:5000，在手机上，只要有网，就可以打开页面。一目了然。这也是vue CLI3.0的新功能吧。
+
+<img src="/PigThird/Third15.jpg" width="500">
+
+只有不断发现，才有更多新发现，效率也会越来越高！
