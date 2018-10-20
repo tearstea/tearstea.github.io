@@ -24,13 +24,13 @@ tags:
 
 <img src="/PigThird/Third2.jpg" width="500">
 
-##　 第二步
+##  第二步
 
 在dist文件中，用浏览器打开index.html,发现是空白页。我的为什么不是空白页，是因为本身在index.html文件中有加载loading动画。所以会出现如下画面，但加载不了页面内容
 
 <img src="/PigThird/Third3.jpg" width="500">
 
-## 　第三步
+##  第三步
 
 安装express-generator生成器。在电脑里，新建一个文件夹，我建的是RuningDist文件，打开gitbash，找到该项目文件，执行  $ npm install express-generator -g  进行安装。如果太慢，可用cnpm安装。
 
@@ -55,13 +55,13 @@ tags:
 
 <img src="/PigThird/Third7.jpg" width="500">
 
-##　　第七步
+##  第七步
 
 安装项目依赖，执行　 $ npm install　
 
 <img src="/PigThird/Third8.png" width="500">
 
-##　第八步
+##  第八步
 
 １.运行 $ npm start 启动expressTest
 
