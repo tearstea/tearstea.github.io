@@ -1,6 +1,6 @@
 ---
 layout: post
-title: webpack打包vue CLI 3.0项目之后生成的dist文件该怎么启动运行
+title: Webpack打包vue CLI 3.0项目之后生成的dist文件该怎么启动运行
 subtitle: vue项目打包，如何部署在express服务器上运行
 date: 2018-09-22
 author: HL
