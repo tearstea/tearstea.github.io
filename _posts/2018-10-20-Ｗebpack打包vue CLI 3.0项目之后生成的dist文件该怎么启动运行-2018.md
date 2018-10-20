@@ -101,6 +101,6 @@ tags:
 
 在浏览器中输入 Local:http://localhost:5000。或者On Your Network:http://192.175.25.101:5000，在手机上，只要有网，就可以打开页面。一目了然。这也是vue CLI3.0的新功能吧。
 
-<img src="/PigThird/Third15.jpg" width="500">
+<img src="/PigThird/Third15.png" width="500">
 
 只有不断发现，才有更多新发现，效率也会越来越高！
