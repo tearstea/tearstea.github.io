@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      webpack打包vue CLI 3.0项目之后生成的dist文件该怎么先进性测试启动运行
+title:      webpack打包vue CLI 3.0项目之后生成的dist文件该怎么启动运行
 subtitle:   vue CLI 3.0 项目打包，如何部署在express服务器上运行
 date:       2018-09-22
 author:     HL
@@ -24,13 +24,13 @@ tags:
 
 <img src="/PigThird/Third2.jpg" width="500">
 
-###  第二步
+##　 第二步
 
 在dist文件中，用浏览器打开index.html,发现是空白页。我的为什么不是空白页，是因为本身在index.html文件中有加载loading动画。所以会出现如下画面，但加载不了页面内容
 
 <img src="/PigThird/Third3.jpg" width="500">
 
-## 第三步
+## 　第三步
 
 安装express-generator生成器。在电脑里，新建一个文件夹，我建的是RuningDist文件，打开gitbash，找到该项目文件，执行  $ npm install express-generator -g  进行安装。如果太慢，可用cnpm安装。
 
@@ -55,7 +55,7 @@ tags:
 
 <img src="/PigThird/Third7.jpg" width="500">
 
-##　第七步
+##　　第七步
 
 安装项目依赖，执行　 $ npm install　
 
@@ -79,7 +79,7 @@ tags:
 
 <img src="/PigThird/Third12.jpg" width="500">
 
-##　　至此，整个项目打包是成功的。如果仍然是空白情况，那么久要检查原始项目的路径问题了。
+至此，整个项目打包是成功的。如果仍然是空白情况，那么久要检查原始项目的路径问题了。
 
 
 
