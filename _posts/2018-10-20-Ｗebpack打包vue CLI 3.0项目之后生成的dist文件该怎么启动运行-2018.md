@@ -5,7 +5,7 @@ subtitle: vue项目打包，如何部署在express服务器上运行
 date: 2018-09-22
 author: HL
 header-img: img/postbg-10-20.jpg
-catalog: false
+catalog: true
 tags:
       - vue项目打包
       - express
