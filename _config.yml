@@ -5,9 +5,9 @@ header-img: img/home.jpg
 email: longtolink@163.com
 description: "努力是迈向成功的开始!"
 keyword: "hI, 人生感言,IT生活 HuangLong, 网址大全, 快捷操作, 好看的电影，免费看电影的网站"
-url: "http://sweattea.github.io"          # your host, for absolute URL
+url: "http://tearstea.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/sweattea/sweattea.github.io.git"  # you code repository
+github_repo: "https://github.com/tearstea/tearstea.github.io.git"  # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,9 +64,9 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: sweattea.github.io    #仓库名称
-  owner: sweattea    #github用户名
-  admin: sweattea
+  repo: tearstea.github.io    #仓库名称
+  owner: tearstea    #github用户名
+  admin: tearstea
   distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
@@ -100,10 +100,10 @@ friends: [
         title: "GitHub",
         href: "https://github.com/tearstea"
     },
-    {
-        title: "BinGo姐",
-        href: "https://www.cometogo.club/"
-    },
+    # {
+    #     title: "BinGo姐",
+    #     href: "https://www.cometogo.club/"
+    # },
     {
         title: "天黑了",
         href: "http://copyfree.cn/"

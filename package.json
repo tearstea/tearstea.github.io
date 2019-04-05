@@ -3,12 +3,12 @@
     "title": "HL Blog",
     "author": "HL <m18571609243@163.com>",
     "version": "1.7.0",
-    "homepage": "http://sweattea.github.io",
+    "homepage": "http://tearstea.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sweattea/sweattea.github.io"
+        "url": "https://github.com/tearstea/tearstea.github.io"
     },
-    "bugs": "https://github.com/sweattea/sweattea.github.io/issues",
+    "bugs": "https://github.com/tearstea/tearstea.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
