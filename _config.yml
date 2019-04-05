@@ -5,9 +5,9 @@ header-img: img/home.jpg
 email: longtolink@163.com
 description: "努力是迈向成功的开始!"
 keyword: "hI, 人生感言,IT生活 HuangLong, 网址大全, 快捷操作, 好看的电影，免费看电影的网站"
-url: "http://tearstea.github.io"          # your host, for absolute URL
+url: "http://sweattea.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/tearstea/tearstea.github.io.git"  # you code repository
+github_repo: "https://github.com/sweattea/sweattea.github.io.git"  # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -64,9 +64,9 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: tearstea.github.io    #仓库名称
-  owner: tearstea    #github用户名
-  admin: tearstea
+  repo: sweattea.github.io    #仓库名称
+  owner: sweattea    #github用户名
+  admin: sweattea
   distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
@@ -78,12 +78,12 @@ gitalk:
 
 # Google Analytics
 # ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: gittab.cn               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: gittab.cn                      # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
+featured-tags: true                      # 是否使用首页标签
 featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
@@ -101,15 +101,15 @@ friends: [
         href: "https://github.com/tearstea"
     },
     {
-        title: "简书·HL",
-        href: "https://www.jianshu.com/u/72fde39cc440"
-    },
-    {
         title: "BinGo姐",
         href: "https://www.cometogo.club/"
     },
-    #{
-    #     title: "Apple Developer",
-    #     href: "https://developer.apple.com/"
-    # }
+    {
+        title: "天黑了",
+        href: "http://copyfree.cn/"
+    },
+    {
+        title: "沟渠网",
+        href: "http://gotolink.cn/"
+    }
 ]
